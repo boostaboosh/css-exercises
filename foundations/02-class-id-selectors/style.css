@@ -1,0 +1,19 @@
+.odd {
+    background-color : hsl(0, 100%, 70%, 0.6);
+    font-family : "Verdana", "DejaVu Sans", sans-serif; 
+}
+
+#line2 {
+    color : #0000ff;
+    font-size : 36px;
+}
+
+.cooler, 
+#line4 {
+    font-size : 24px;
+}
+
+#line4 {
+    font-weight: 700;
+    background-color: rgba(0, 255, 0, 0.6); /* the fourth digit is transparency: between 0 and 1.0 */
+}
