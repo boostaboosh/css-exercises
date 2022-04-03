@@ -1,0 +1,9 @@
+* {
+    font-family : "Verdana", "sans-serif";
+}
+
+div .text {
+    background-color : #ffff00;
+    color : hsl(0, 100%, 50%);
+    text-align :center;
+}
