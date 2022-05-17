@@ -23,6 +23,8 @@ body {
 }
 
 .sidebar{
+  width: 300px;
+  background: royalblue;
   flex: none;
   padding: 16px;
 }
@@ -44,14 +46,17 @@ a {
 }
 
 .cards {
-  padding: 50px;
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
 }
 
 .card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
   padding: 16px;
+  margin: 16px;
   flex: 0 0 300px;
 }
 
@@ -62,15 +67,4 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.sidebar {
-  width: 300px;
-  background: royalblue;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
 }
